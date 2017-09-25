@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OfflineSDKLib_Example' do
+  pod 'OfflineSDKLib', :path => '../'
+
+  target 'OfflineSDKLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
