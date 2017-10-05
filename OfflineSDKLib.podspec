@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OfflineSDKLib'
-  s.version          = '0.3.9'
+  s.version          = '0.1.0'
   s.summary          = 'My First SDK Library.'
 
   s.description      = <<-DESC
