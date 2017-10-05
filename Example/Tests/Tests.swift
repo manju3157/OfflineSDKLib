@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import OfflineSDKLib
+//import OfflineSDKLib
 
 class Tests: XCTestCase {
     

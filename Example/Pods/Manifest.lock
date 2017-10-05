@@ -1,0 +1,16 @@
+PODS:
+  - OfflineSDKLib (0.3.9)
+
+DEPENDENCIES:
+  - OfflineSDKLib (from `../`)
+
+EXTERNAL SOURCES:
+  OfflineSDKLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OfflineSDKLib: bf51e438dfdf66fc51a903868ec543d5e0458055
+
+PODFILE CHECKSUM: f3c5e2d340cd4cec69cd91c1a456495b0646bdae
+
+COCOAPODS: 1.3.1

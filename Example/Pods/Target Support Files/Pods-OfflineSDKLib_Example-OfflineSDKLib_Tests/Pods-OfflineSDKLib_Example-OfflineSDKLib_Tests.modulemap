@@ -1,0 +1,6 @@
+framework module Pods_OfflineSDKLib_Example_OfflineSDKLib_Tests {
+  umbrella header "Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
