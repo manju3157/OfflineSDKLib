@@ -1,6 +1,6 @@
 {
   "name": "OfflineSDKLib",
-  "version": "0.3.9",
+  "version": "0.1.0",
   "summary": "My First SDK Library.",
   "description": "My First SDK to take mobile surveys",
   "homepage": "https://github.com/manju3157/OfflineSDKLib",
@@ -13,24 +13,24 @@
   },
   "source": {
     "git": "https://github.com/manju3157/OfflineSDKLib.git",
-    "tag": "0.3.9"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "include/OPGSDK/*.h",
-    "include/OnePoint.Runtime/*.h"
-  ],
   "ios": {
     "vendored_libraries": [
-      "libOnePointSDK.a",
-      "libOnePoint.Runtime.a"
+      "lib/libOnePointSDK.a",
+      "lib/libOnePoint.Runtime.a"
     ]
   },
   "preserve_paths": [
     "libOnePointSDK.a",
     "libOnePoint.Runtime.a"
+  ],
+  "source_files": [
+    "include/OPGSDK/*.h",
+    "include/OnePoint.Runtime/*.h"
   ],
   "public_header_files": [
     "include/OPGSDK/*.h",

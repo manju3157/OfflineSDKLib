@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = /usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OfflineSDKLib"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.."
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../lib"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OfflineSDKLib"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"OnePoint.Runtime" -l"OnePointSDK" -l"c++" -l"iconv" -l"xml2" -l"z"
 PODS_BUILD_DIR = $BUILD_DIR

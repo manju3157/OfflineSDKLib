@@ -1,5 +1,5 @@
 PODS:
-  - OfflineSDKLib (0.3.9)
+  - OfflineSDKLib (0.1.0)
 
 DEPENDENCIES:
   - OfflineSDKLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OfflineSDKLib: bf51e438dfdf66fc51a903868ec543d5e0458055
+  OfflineSDKLib: 4ffc2b0b17a9ab9283cacdc4170c7514a7163e98
 
 PODFILE CHECKSUM: f3c5e2d340cd4cec69cd91c1a456495b0646bdae
 

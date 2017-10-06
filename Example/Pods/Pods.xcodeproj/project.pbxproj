@@ -87,7 +87,6 @@
 		1537CA79D469B0C6FABB0865A6646BF4 /* Categories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
 		15BB93A1DF184DF19954D0625B033C7B /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		1729AE87D3D55CC6DFF57DD2FC5D80E1 /* Loader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
-		194F0B0FF9AC1E5E0E5E06F5DCDA251C /* libOnePoint.Runtime.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libOnePoint.Runtime.a; sourceTree = "<group>"; };
 		1952C34E9277ED324C4D269D325C546F /* QuestionStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QuestionStyle.h; sourceTree = "<group>"; };
 		196A011D4E7403054AA7757F0AC19B3B /* XmlControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XmlControl.h; sourceTree = "<group>"; };
 		197E348DD8D9A9439898E608E765841F /* StaticField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StaticField.h; sourceTree = "<group>"; };
@@ -212,7 +211,6 @@
 		5614A8E8AE1FDAA89C050D7A45453E47 /* Control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
 		5695D592D56C2DD907BBC5C1AE01C3B2 /* IAstNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IAstNode.h; sourceTree = "<group>"; };
 		56FF489304048EA5323E2FF27C109846 /* Access.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Access.h; sourceTree = "<group>"; };
-		57DE2EFF1071EBC0F84EA37D136DB4E9 /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libOnePointSDK.a; sourceTree = "<group>"; };
 		580D7CD3619494DDCA8F50ABFC8BA3F6 /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON_private.h; sourceTree = "<group>"; };
 		59F12F387CD07031B3E7490AA0F4ED57 /* OpQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpQuestion.h; sourceTree = "<group>"; };
 		5A03BAB71A564761C841AC40E5B87196 /* InterfaceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InterfaceRecord.h; sourceTree = "<group>"; };
@@ -317,6 +315,7 @@
 		8C68351BE97DED975B54C0A95B75BB5A /* OPGLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLabel.h; sourceTree = "<group>"; };
 		8CCE175CF8DF42E6797FA0A2C46C4EC9 /* NSHTTPURLResponse+Write.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+Write.h"; sourceTree = "<group>"; };
 		8D289EA7733F658140B27D3DB38E7AE3 /* IResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IResponse.h; sourceTree = "<group>"; };
+		8E055FB64963DB1C9B320DA359E40190 /* libOnePoint.Runtime.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePoint.Runtime.a; path = lib/libOnePoint.Runtime.a; sourceTree = "<group>"; };
 		8E53DA971E937E428CE65FA79568EACD /* WebPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebPlayer.h; sourceTree = "<group>"; };
 		8E888F1DA160884315F8CDF51EDD8F0E /* OPGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocation.h; sourceTree = "<group>"; };
 		8EE6109212A0E04C72831551AC7261CA /* WebContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebContext.h; sourceTree = "<group>"; };
@@ -366,6 +365,7 @@
 		A43A10A1410C8ED4B3D674F9615E99C7 /* Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A611546599805ED09A499DB4042E693C /* Operator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
 		A6E73ACF154056F09418E4E950395DF6 /* IMediaStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMediaStyle.h; sourceTree = "<group>"; };
+		A737F740FE33023A8BA65D8B30C976D9 /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
 		A74F5E64EAB515B254C8FA12B9718DBC /* UTF8Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTF8Buffer.h; sourceTree = "<group>"; };
 		A836DF79B793A824E6F3C4D05C1AC045 /* IStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IStyle.h; sourceTree = "<group>"; };
 		A85655C018A24114828149E5CF6DE405 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
@@ -587,7 +587,7 @@
 			isa = PBXGroup;
 			children = (
 				9D89CE8A499B82BF5B568A8FFF0D476D /* .. */,
-				D005C8A64CCC7229FB59D12C0B997C57 /* Frameworks */,
+				BF561A8131846D826F5C46C6CE09C981 /* Frameworks */,
 				55DD53555202D096C573B416BDB50E6A /* Resources */,
 				7935FAFB47ED8E0199D0BC1C4A19A712 /* Support Files */,
 			);
@@ -1213,11 +1213,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D005C8A64CCC7229FB59D12C0B997C57 /* Frameworks */ = {
+		BF561A8131846D826F5C46C6CE09C981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				194F0B0FF9AC1E5E0E5E06F5DCDA251C /* libOnePoint.Runtime.a */,
-				57DE2EFF1071EBC0F84EA37D136DB4E9 /* libOnePointSDK.a */,
+				8E055FB64963DB1C9B320DA359E40190 /* libOnePoint.Runtime.a */,
+				A737F740FE33023A8BA65D8B30C976D9 /* libOnePointSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
