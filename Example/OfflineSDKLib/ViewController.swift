@@ -17,14 +17,14 @@ class ViewController: OPGViewController, OPGSurveyDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         let sdk = OPGSDK()
         do {
-            let auth = try sdk.authenticate("m.ramesh", password: "dev")
+            let auth = try sdk.authenticate("username", password: "password")
         }
         catch{
             print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
             
         }
         self.downloadScript()
-        //self.loadSurvey("SDKDemo")
+        // load offline survey
         self.loadOfflineSurvey(self.scriptPath, surveyName: "OfflineMediaTest", surveyID: NSNumber(value:102183), panelID: NSNumber(value:10635), panellistID: NSNumber(value:26114))
 
     }

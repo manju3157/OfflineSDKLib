@@ -108,6 +108,7 @@
                         <segue destination="M5X-z8-BLb" kind="show" identifier="getCountries" id="vut-VH-2fc"/>
                         <segue destination="vMe-Hv-sSq" kind="show" identifier="socialMediaAuthentication" id="aZp-Or-7n5"/>
                         <segue destination="BgI-qo-RSP" kind="show" identifier="geofencing" id="NKI-vL-Shc"/>
+                        <segue destination="VX2-Jb-6Np" kind="show" identifier="getScript" id="0SP-aF-W7d"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="92J-nA-ER4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1196,6 +1197,86 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JnN-Ov-3IQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2574" y="-613"/>
+        </scene>
+        <!--GetScript-->
+        <scene sceneID="4ll-p4-QVe">
+            <objects>
+                <viewController title="GetScript" id="VX2-Jb-6Np" customClass="GetScriptViewController" customModule="OfflineSDKLib_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jo2-6y-2gS"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSr-ze-hYe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YRt-oo-Q7n">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Survey Reference" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dv8-oT-qqk">
+                                <rect key="frame" x="60.5" y="237" width="199" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="Wwy-KX-kVh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tca-Sv-C6v">
+                                <rect key="frame" x="79" y="285" width="162" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="4xf-L7-W1L"/>
+                                </constraints>
+                                <state key="normal" title="GetScript"/>
+                                <connections>
+                                    <action selector="getScript:" destination="VX2-Jb-6Np" eventType="touchUpInside" id="JNY-yd-DOe"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Survey ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lal-5p-wAp">
+                                <rect key="frame" x="61" y="187" width="199" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="u7N-sF-Agf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Survey Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-mD-WzQ">
+                                <rect key="frame" x="61" y="141" width="199" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="5JM-ck-FUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92941176469999998" green="0.49803921569999998" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dv8-oT-qqk" firstAttribute="centerY" secondItem="YRt-oo-Q7n" secondAttribute="centerY" id="0y9-gd-zfq"/>
+                            <constraint firstItem="tca-Sv-C6v" firstAttribute="top" secondItem="dv8-oT-qqk" secondAttribute="bottom" constant="18" id="2si-xb-lTE"/>
+                            <constraint firstItem="2k5-mD-WzQ" firstAttribute="centerX" secondItem="YRt-oo-Q7n" secondAttribute="centerX" id="4NZ-l3-VX3"/>
+                            <constraint firstItem="tca-Sv-C6v" firstAttribute="centerX" secondItem="YRt-oo-Q7n" secondAttribute="centerX" id="FLn-9q-9gF"/>
+                            <constraint firstItem="Lal-5p-wAp" firstAttribute="centerX" secondItem="YRt-oo-Q7n" secondAttribute="centerX" id="IHd-Kf-J3s"/>
+                            <constraint firstItem="dv8-oT-qqk" firstAttribute="centerY" secondItem="YRt-oo-Q7n" secondAttribute="centerY" id="Nnx-KA-9xC"/>
+                            <constraint firstItem="Lal-5p-wAp" firstAttribute="top" secondItem="2k5-mD-WzQ" secondAttribute="bottom" constant="16" id="WNP-nS-N2L"/>
+                            <constraint firstItem="dv8-oT-qqk" firstAttribute="top" secondItem="Lal-5p-wAp" secondAttribute="bottom" constant="20" id="cgP-9c-Dd5"/>
+                            <constraint firstItem="dv8-oT-qqk" firstAttribute="centerX" secondItem="YRt-oo-Q7n" secondAttribute="centerX" id="mfy-Gd-t4V"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Nnx-KA-9xC"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Nnx-KA-9xC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="surveyId" destination="Lal-5p-wAp" id="kop-52-iJZ"/>
+                        <outlet property="surveyName" destination="2k5-mD-WzQ" id="Y4i-bp-FsU"/>
+                        <outlet property="surveyRef" destination="dv8-oT-qqk" id="Mlk-lU-7A4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8k-IA-zAe" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="929"/>
         </scene>
     </scenes>
     <resources>

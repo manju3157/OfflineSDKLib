@@ -16,7 +16,7 @@ class ApiTableViewController: UITableViewController {
         super.viewDidLoad()
     self.tableView.separatorColor = UIColor.orange
         // Do any additional setup after loading the view, typically from a nib.
-        apiArray = ["Authenticate","Authenticate - Social Media","GetPanels","GetSurveys","Forgot password","Change Password","Download Media","Upload Media","GetPanellistProfile","UpdatePanellistProfile","GetCountries","Geofencing","Take Demo"]
+        apiArray = ["Authenticate","Authenticate - Social Media","GetPanels","GetSurveys","Forgot password","Change Password","Download Media","Upload Media","GetPanellistProfile","UpdatePanellistProfile","GetCountries","Geofencing","GetScript","Take Demo"]
 
 
 //        let bundlePath = Bundle.main.path(forResource: "OPGResourceBundle", ofType: "bundle")
@@ -92,6 +92,9 @@ class ApiTableViewController: UITableViewController {
             self.performSegue(withIdentifier: "geofencing", sender: nil)
             break
         case 12 :
+            self.performSegue(withIdentifier: "getScript", sender: nil)
+            break
+        case 13 :
             self.performSegue(withIdentifier: "demoSurveySwift", sender: nil)
             break
         default : break

@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		788B403F1F8B794300BFEE6F /* GetScriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B403E1F8B794300BFEE6F /* GetScriptViewController.swift */; };
 		78944E5E1F8B4BAC0017D4DD /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */; };
 		78944E5F1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */; };
 		78944E601F8B4BAC0017D4DD /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */; };
@@ -65,6 +66,7 @@
 		70A7663C245B29394F3C8128 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		757EA00D6A3BCD184C03A3EA /* OfflineSDKLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OfflineSDKLib.podspec; path = ../OfflineSDKLib.podspec; sourceTree = "<group>"; };
 		784BAFCA1F79030000E20360 /* OfflineSDKLib_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineSDKLib_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		788B403E1F8B794300BFEE6F /* GetScriptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetScriptViewController.swift; path = "APIControllers-Swift/GetScriptViewController.swift"; sourceTree = "<group>"; };
 		78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewController.swift; path = "APIControllers-Swift/AuthenticationViewController.swift"; sourceTree = "<group>"; };
 		78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationWithSocialMediaViewController.swift; path = "APIControllers-Swift/AuthenticationWithSocialMediaViewController.swift"; sourceTree = "<group>"; };
 		78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = "APIControllers-Swift/ChangePasswordViewController.swift"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 		78944E4C1F8B4B990017D4DD /* APIControllers-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				788B403E1F8B794300BFEE6F /* GetScriptViewController.swift */,
 				78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */,
 				78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */,
 				78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */,
@@ -466,6 +469,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				78944E6A1F8B4BAC0017D4DD /* SurveyTableViewCell.swift in Sources */,
+				788B403F1F8B794300BFEE6F /* GetScriptViewController.swift in Sources */,
 				78944E661F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift in Sources */,
 				78944E671F8B4BAC0017D4DD /* GetPanelsViewController.swift in Sources */,
 				78944E6D1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift in Sources */,
