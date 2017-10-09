@@ -14,4 +14,6 @@
 #import "OPGPanellistProfile.h"
 #import "OPGChangePassword.h"
 #import "OPGSurveyPanel.h"
-#import "OPGParseResult.h"
+
+#import "OPGGeoFence.h"
+#import "OPGGeofenceSurvey.h"

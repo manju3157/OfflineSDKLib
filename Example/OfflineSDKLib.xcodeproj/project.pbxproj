@@ -14,6 +14,25 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		78944E5E1F8B4BAC0017D4DD /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */; };
+		78944E5F1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */; };
+		78944E601F8B4BAC0017D4DD /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */; };
+		78944E611F8B4BAC0017D4DD /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E501F8B4BAC0017D4DD /* CountryTableViewController.swift */; };
+		78944E621F8B4BAC0017D4DD /* DemoSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E511F8B4BAC0017D4DD /* DemoSurveyViewController.swift */; };
+		78944E631F8B4BAC0017D4DD /* DownloadMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E521F8B4BAC0017D4DD /* DownloadMediaViewController.swift */; };
+		78944E641F8B4BAC0017D4DD /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E531F8B4BAC0017D4DD /* ForgotPasswordViewController.swift */; };
+		78944E651F8B4BAC0017D4DD /* GeofencingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E541F8B4BAC0017D4DD /* GeofencingViewController.swift */; };
+		78944E661F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E551F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift */; };
+		78944E671F8B4BAC0017D4DD /* GetPanelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E561F8B4BAC0017D4DD /* GetPanelsViewController.swift */; };
+		78944E681F8B4BAC0017D4DD /* GetSurveysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E571F8B4BAC0017D4DD /* GetSurveysViewController.swift */; };
+		78944E691F8B4BAC0017D4DD /* SurveyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E581F8B4BAC0017D4DD /* SurveyListViewController.swift */; };
+		78944E6A1F8B4BAC0017D4DD /* SurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E591F8B4BAC0017D4DD /* SurveyTableViewCell.swift */; };
+		78944E6B1F8B4BAC0017D4DD /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E5A1F8B4BAC0017D4DD /* SurveyTableViewController.swift */; };
+		78944E6C1F8B4BAC0017D4DD /* TakeSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E5B1F8B4BAC0017D4DD /* TakeSurveyViewController.swift */; };
+		78944E6D1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E5C1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift */; };
+		78944E6E1F8B4BAC0017D4DD /* UploadMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E5D1F8B4BAC0017D4DD /* UploadMediaViewController.swift */; };
+		78944E701F8B4BBB0017D4DD /* ApiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78944E6F1F8B4BBB0017D4DD /* ApiTableViewController.swift */; };
+		78944E731F8B4BD20017D4DD /* surveydefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78944E721F8B4BD20017D4DD /* surveydefault.jpg */; };
 		A0DDD1C9EAF105EF68508363 /* libPods-OfflineSDKLib_Example-OfflineSDKLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF92AE24B07B0FA19E89FD0 /* libPods-OfflineSDKLib_Example-OfflineSDKLib_Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +65,25 @@
 		70A7663C245B29394F3C8128 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		757EA00D6A3BCD184C03A3EA /* OfflineSDKLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OfflineSDKLib.podspec; path = ../OfflineSDKLib.podspec; sourceTree = "<group>"; };
 		784BAFCA1F79030000E20360 /* OfflineSDKLib_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineSDKLib_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewController.swift; path = "APIControllers-Swift/AuthenticationViewController.swift"; sourceTree = "<group>"; };
+		78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationWithSocialMediaViewController.swift; path = "APIControllers-Swift/AuthenticationWithSocialMediaViewController.swift"; sourceTree = "<group>"; };
+		78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = "APIControllers-Swift/ChangePasswordViewController.swift"; sourceTree = "<group>"; };
+		78944E501F8B4BAC0017D4DD /* CountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryTableViewController.swift; path = "APIControllers-Swift/CountryTableViewController.swift"; sourceTree = "<group>"; };
+		78944E511F8B4BAC0017D4DD /* DemoSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoSurveyViewController.swift; path = "APIControllers-Swift/DemoSurveyViewController.swift"; sourceTree = "<group>"; };
+		78944E521F8B4BAC0017D4DD /* DownloadMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadMediaViewController.swift; path = "APIControllers-Swift/DownloadMediaViewController.swift"; sourceTree = "<group>"; };
+		78944E531F8B4BAC0017D4DD /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = "APIControllers-Swift/ForgotPasswordViewController.swift"; sourceTree = "<group>"; };
+		78944E541F8B4BAC0017D4DD /* GeofencingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeofencingViewController.swift; path = "APIControllers-Swift/GeofencingViewController.swift"; sourceTree = "<group>"; };
+		78944E551F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetPanellistProfileViewController.swift; path = "APIControllers-Swift/GetPanellistProfileViewController.swift"; sourceTree = "<group>"; };
+		78944E561F8B4BAC0017D4DD /* GetPanelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetPanelsViewController.swift; path = "APIControllers-Swift/GetPanelsViewController.swift"; sourceTree = "<group>"; };
+		78944E571F8B4BAC0017D4DD /* GetSurveysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSurveysViewController.swift; path = "APIControllers-Swift/GetSurveysViewController.swift"; sourceTree = "<group>"; };
+		78944E581F8B4BAC0017D4DD /* SurveyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyListViewController.swift; path = "APIControllers-Swift/SurveyListViewController.swift"; sourceTree = "<group>"; };
+		78944E591F8B4BAC0017D4DD /* SurveyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyTableViewCell.swift; path = "APIControllers-Swift/SurveyTableViewCell.swift"; sourceTree = "<group>"; };
+		78944E5A1F8B4BAC0017D4DD /* SurveyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyTableViewController.swift; path = "APIControllers-Swift/SurveyTableViewController.swift"; sourceTree = "<group>"; };
+		78944E5B1F8B4BAC0017D4DD /* TakeSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeSurveyViewController.swift; path = "APIControllers-Swift/TakeSurveyViewController.swift"; sourceTree = "<group>"; };
+		78944E5C1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdatePanellistProfileViewController.swift; path = "APIControllers-Swift/UpdatePanellistProfileViewController.swift"; sourceTree = "<group>"; };
+		78944E5D1F8B4BAC0017D4DD /* UploadMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadMediaViewController.swift; path = "APIControllers-Swift/UploadMediaViewController.swift"; sourceTree = "<group>"; };
+		78944E6F1F8B4BBB0017D4DD /* ApiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTableViewController.swift; sourceTree = "<group>"; };
+		78944E721F8B4BD20017D4DD /* surveydefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = surveydefault.jpg; path = Images/surveydefault.jpg; sourceTree = "<group>"; };
 		B3ADD528D4C1F5FF04C670E1 /* Pods-OfflineSDKLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSDKLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSDKLib_Example/Pods-OfflineSDKLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB33243963CF4F9C9A2156F /* Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests/Pods-OfflineSDKLib_Example-OfflineSDKLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF6A25383A8FB849991F8BF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -117,10 +155,13 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				78944E6F1F8B4BBB0017D4DD /* ApiTableViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				78944E4C1F8B4B990017D4DD /* APIControllers-Swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				78944E711F8B4BC70017D4DD /* Images */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				784BAFCA1F79030000E20360 /* OfflineSDKLib_Example-Bridging-Header.h */,
 			);
@@ -161,6 +202,38 @@
 				DF6A25383A8FB849991F8BF0 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		78944E4C1F8B4B990017D4DD /* APIControllers-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				78944E4D1F8B4BAC0017D4DD /* AuthenticationViewController.swift */,
+				78944E4E1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift */,
+				78944E4F1F8B4BAC0017D4DD /* ChangePasswordViewController.swift */,
+				78944E501F8B4BAC0017D4DD /* CountryTableViewController.swift */,
+				78944E511F8B4BAC0017D4DD /* DemoSurveyViewController.swift */,
+				78944E521F8B4BAC0017D4DD /* DownloadMediaViewController.swift */,
+				78944E531F8B4BAC0017D4DD /* ForgotPasswordViewController.swift */,
+				78944E541F8B4BAC0017D4DD /* GeofencingViewController.swift */,
+				78944E551F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift */,
+				78944E561F8B4BAC0017D4DD /* GetPanelsViewController.swift */,
+				78944E571F8B4BAC0017D4DD /* GetSurveysViewController.swift */,
+				78944E581F8B4BAC0017D4DD /* SurveyListViewController.swift */,
+				78944E591F8B4BAC0017D4DD /* SurveyTableViewCell.swift */,
+				78944E5A1F8B4BAC0017D4DD /* SurveyTableViewController.swift */,
+				78944E5B1F8B4BAC0017D4DD /* TakeSurveyViewController.swift */,
+				78944E5C1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift */,
+				78944E5D1F8B4BAC0017D4DD /* UploadMediaViewController.swift */,
+			);
+			name = "APIControllers-Swift";
+			sourceTree = "<group>";
+		};
+		78944E711F8B4BC70017D4DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				78944E721F8B4BD20017D4DD /* surveydefault.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +295,11 @@
 						DevelopmentTeam = 7FK8U2PHL6;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -258,6 +336,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				78944E731F8B4BD20017D4DD /* surveydefault.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +465,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				78944E6A1F8B4BAC0017D4DD /* SurveyTableViewCell.swift in Sources */,
+				78944E661F8B4BAC0017D4DD /* GetPanellistProfileViewController.swift in Sources */,
+				78944E671F8B4BAC0017D4DD /* GetPanelsViewController.swift in Sources */,
+				78944E6D1F8B4BAC0017D4DD /* UpdatePanellistProfileViewController.swift in Sources */,
+				78944E631F8B4BAC0017D4DD /* DownloadMediaViewController.swift in Sources */,
+				78944E6C1F8B4BAC0017D4DD /* TakeSurveyViewController.swift in Sources */,
+				78944E5E1F8B4BAC0017D4DD /* AuthenticationViewController.swift in Sources */,
+				78944E701F8B4BBB0017D4DD /* ApiTableViewController.swift in Sources */,
+				78944E621F8B4BAC0017D4DD /* DemoSurveyViewController.swift in Sources */,
+				78944E611F8B4BAC0017D4DD /* CountryTableViewController.swift in Sources */,
+				78944E641F8B4BAC0017D4DD /* ForgotPasswordViewController.swift in Sources */,
+				78944E5F1F8B4BAC0017D4DD /* AuthenticationWithSocialMediaViewController.swift in Sources */,
+				78944E601F8B4BAC0017D4DD /* ChangePasswordViewController.swift in Sources */,
+				78944E6E1F8B4BAC0017D4DD /* UploadMediaViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				78944E681F8B4BAC0017D4DD /* GetSurveysViewController.swift in Sources */,
+				78944E691F8B4BAC0017D4DD /* SurveyListViewController.swift in Sources */,
+				78944E651F8B4BAC0017D4DD /* GeofencingViewController.swift in Sources */,
+				78944E6B1F8B4BAC0017D4DD /* SurveyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
